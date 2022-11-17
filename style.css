@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+.container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#txtText{
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: purple;
+}
+#addToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+#consoleBas{
+    height: 45px;
+    width: 210px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:firebrick;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+#consoleBas:active{
+    background-color: white;
+    color: black;
+}
+#addToDo:active{
+    background: blue;
+}
+
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#clearToDo:active{
+    background: whitesmoke;
+    color: black;
+}
+
+.parag-style{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    color: purple;
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 800px;
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 50px/50px;
+
+     
+}
+.to-dos{
+    margin-top: 25px;
+}
